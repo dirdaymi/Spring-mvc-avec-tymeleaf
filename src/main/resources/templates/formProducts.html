@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{_layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire Produit</title>
+</head>
+<body>
+<div layout:fragment="content1">
+    <div class="col-md-6 offset-3">
+        <div class="card">
+            <div class="card-header">Saisie Produit</div>
+            <div class="card-body">
+                <form method="post" th:action="@{/admin/save}" th:object="${product}">
+                    <div class="mb-3">
+                        <label for="name">Nom</label>
+                        <input id="name" class="form-control" type="text" th:field="*{name}">
+                        <span class="text-danger" th:errors="*{name}"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="price">Prix</label>
+                        <input id="price" class="form-control" type="text" th:field="*{price}">
+                        <span class="text-danger" th:errors="*{price}"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity">Quantité</label>
+                        <input id="quantity" class="form-control" type="text" th:field="*{quantity}">
+                        <span class="text-danger" th:errors="*{quantity}"></span>
+                    </div>
+                    <input type="hidden" th:field="*{id}">
+                    <button type="submit" class="btn btn-primary">Enregistrer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
