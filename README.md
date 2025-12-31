@@ -112,7 +112,7 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 * **URL Console :** [http://localhost:8094/h2-console](http://localhost:8094/h2-console)
 * **Configuration JDBC (Important) :**
     * Driver Class : `org.h2.Driver`
-    * JDBC URL : `jdbc:h2:mem:productsDB`  *(⚠️ Attention : ne pas utiliser `~/test`)*
+    * JDBC URL : `jdbc:h2:mem:productsDB`  
     * User Name : `sa`
     * Password : (laisser vide)
 
