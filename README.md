@@ -1,10 +1,10 @@
-# 📦 Application de Gestion de Produits (Product Management App)
+#  Application de Gestion de Produits (Product Management App)
 
 Ce projet est une application Web complète développée avec **Spring Boot** et **Thymeleaf**. Elle a été réalisée dans le cadre d'un Travail Pratique (TP) pour comprendre l'architecture MVC, la persistance des données avec JPA, et la sécurisation avec Spring Security.
 
 L'objectif est de fournir une interface permettant de gérer un stock de produits (CRUD : Créer, Lire, Mettre à jour, Supprimer) avec différents niveaux de droits d'accès.
 
-## 🚀 Fonctionnalités Principales
+##  Fonctionnalités Principales
 
 * **Consultation :** Affichage de la liste des produits avec pagination.
 * **Recherche :** Barre de recherche par mot-clé (ex: "Computer").
@@ -17,17 +17,17 @@ L'objectif est de fournir une interface permettant de gérer un stock de produit
 
 ---
 
-## 📸 Aperçu de l'application
+##  Aperçu de l'application
 
 Voici quelques captures d'écran illustrant le fonctionnement de l'application.
 
-# 📦 Application de Gestion de Produits (Product Management App)
+#  Application de Gestion de Produits (Product Management App)
 
 Ce projet est une application Web complète développée avec **Spring Boot** et **Thymeleaf**. Elle a été réalisée dans le cadre d'un Travail Pratique (TP) pour comprendre l'architecture MVC, la persistance des données avec JPA, et la sécurisation avec Spring Security.
 
 L'objectif est de fournir une interface permettant de gérer un stock de produits (CRUD : Créer, Lire, Mettre à jour, Supprimer) avec différents niveaux de droits d'accès.
 
-## 🚀 Fonctionnalités Principales
+##  Fonctionnalités Principales
 
 * **Consultation :** Affichage de la liste des produits avec pagination.
 * **Recherche :** Barre de recherche par mot-clé (ex: "Computer").
@@ -40,7 +40,7 @@ L'objectif est de fournir une interface permettant de gérer un stock de produit
 
 ---
 
-## 📸 Aperçu de l'application
+##  Aperçu de l'application
 
 Voici quelques captures d'écran illustrant le fonctionnement de l'application.
 
@@ -66,7 +66,7 @@ Les données sont stockées dans une base de données embarquée H2.
 
 ---
 
-## 🛠️ Stack Technique
+##  Stack Technique
 
 * **Java 17** : Langage principal.
 * **Spring Boot 3.2** : Framework backend.
@@ -79,7 +79,7 @@ Les données sont stockées dans une base de données embarquée H2.
 
 ---
 
-## ⚙️ Configuration & Installation
+##  Configuration & Installation
 
 Pour lancer ce projet localement, suivez ces étapes :
 
@@ -105,7 +105,7 @@ La sécurité est activée par défaut. Voici les utilisateurs configurés en m�
 
 ---
 
-## 🗄️ Accès à la Base de Données (H2)
+##  Accès à la Base de Données (H2)
 
 Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
@@ -120,7 +120,7 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 ---
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 * `entities` : Contient la classe `Product` (JPA Entity).
 * `repository` : Interface `ProductRepository` pour les requêtes SQL.
@@ -130,13 +130,13 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 ---
 
-## 📝 Auteur
+##  Auteur
 **Abdel-hamid Mahamat Louki**
 *Élève Ingénieur en Informatique - Université Mundiapolis*
 
 ---
 
-## 🛠️ Stack Technique
+##  Stack Technique
 
 * **Java 17** : Langage principal.
 * **Spring Boot 3.2** : Framework backend.
@@ -149,7 +149,7 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 ---
 
-## ⚙️ Configuration & Installation
+##  Configuration & Installation
 
 Pour lancer ce projet localement, suivez ces étapes :
 
@@ -175,14 +175,14 @@ La sécurité est activée par défaut. Voici les utilisateurs configurés en m�
 
 ---
 
-## 🗄️ Accès à la Base de Données (H2)
+##  Accès à la Base de Données (H2)
 
 Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 * **URL Console :** [http://localhost:8094/h2-console](http://localhost:8094/h2-console)
 * **Configuration JDBC (Important) :**
     * Driver Class : `org.h2.Driver`
-    * JDBC URL : `jdbc:h2:mem:productsDB`  *(⚠️ Attention : ne pas utiliser `~/test`)*
+    * JDBC URL : `jdbc:h2:mem:productsDB`  
     * User Name : `sa`
     * Password : (laisser vide)
 
@@ -190,7 +190,7 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 ---
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 * `entities` : Contient la classe `Product` (JPA Entity).
 * `repository` : Interface `ProductRepository` pour les requêtes SQL.
@@ -200,6 +200,6 @@ Pour vérifier les données brutes, vous pouvez accéder à la console H2.
 
 ---
 
-## 📝 Auteur
+##  Auteur
 **Abdel-hamid Mahamat Louki**
 *Élève Ingénieur en Informatique - Université Mundiapolis*
